@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "CPPAlien, 彭涛, 彭涛的博客, CPPAlien Blog, Android 彭涛"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -32,7 +32,7 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
@@ -45,9 +45,9 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
   archives: /archives
-  #tags: /tags
+  categories: /categories
+  tags: /tags
   #about: /about
   #sitemap: /sitemap.xml
   #commonweal: /404.html
@@ -155,10 +155,9 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
-  Twitter: twitter
+  GitHub: github-alt
   Weibo: weibo
-
+  Jianshu: book
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -191,9 +190,9 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: post
+  #display: post
   #display: always
-  #display: hide
+  display: hide
   #display: remove
 
   # Sidebar offset from top menubar in pixels.
@@ -231,7 +230,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Post meta display settings
@@ -359,7 +358,7 @@ changyan:
 #yandex_site_verification:
 
 # CNZZ count
-#cnzz_siteid:
+cnzz_siteid: 1261961389
 
 # Application Insights
 # See https://azure.microsoft.com/en-us/services/application-insights/
